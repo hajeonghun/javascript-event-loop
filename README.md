@@ -155,7 +155,7 @@ setTimeout(() => { console.log('Hello, Web API'); }, 3000);
   - 렌더링 타이밍이 정상적으로 진행되면, 애니메이션 프레임(Animation Frames)이 매크로 태스크(Macrotask)보다 먼저 실행됩니다.
 - **시나리오 2: 렌더링이 지연되는 경우**
   - 태스크 큐에 작업이 너무 많아 렌더링이 지연되면, 렌더링 타이밍이 지나치게 늦어지고 이로 인해 매크로 태스크가 먼저 실행될 수도 있습니다.
-  - 예를 들어, 렌더링 사이클이 놓쳐졌을 때 setTimeout이 먼저 실행되고 이후 requestAnimationFrame이 실행될 수 있습니다.
+  - 예를 들어, 렌더링 사이클이 놓쳐졌을 때 매크로 태스크(Macrotask)가 먼저 실행되고 이후 애니메이션 프레임(Animation Frames)이 실행될 수 있습니다.
 
 #### 실행 순서에 따른 예제
 ```javascript
