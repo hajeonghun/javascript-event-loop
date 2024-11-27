@@ -4,7 +4,7 @@
 # Index
 - [Thread](#thread)
   - [Thread vs Process](#thread-vs-process)
-  - [Why is JavaScript Single Threaded?](#why-is-javascript-single-threaded?)
+  - [Why is JavaScript Single Threaded?](#why-is-javascript-single-threaded)
 - [Event Loop](#event-loop)
 - [Web API](#web-api)
 - [Task Queue](#task-queue)
@@ -12,7 +12,7 @@
   - [Microtask Queue](#microtask-queue)
   - [Animation Frames](#animation-frames)
 - [requestAnimationFrame vs setTimeout](#requestanimationframe-vs-settimeout)
-- [Q&A](#q&a)
+- [Q&A](#qa)
 ## Thread
 **스레드(Thread)** 는 프로세스(Process) 내에서 실행되는 가장 작은 단위의 작업 흐름입니다. 운영 체제는 프로그램을 실행할 때 프로세스를 생성하며, 이 프로세스 내부에서 여러 스레드가 생성되어 작업을 처리할 수 있습니다. 
 
