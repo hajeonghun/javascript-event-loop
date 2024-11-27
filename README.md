@@ -65,7 +65,7 @@
 > **이벤트 루프(Event Loop)** 는 JavaScript의 비동기 작업을 처리하는 메커니즘입니다.   
 > JavaScript는 싱글 스레드로 동작하지만, 이벤트 루프를 통해 비동기 작업을 효과적으로 관리하여 논블로킹(non-blocking) 동작을 지원합니다.  
 
-![event loop.png](assets/event loop.png)
+![event loop.png](assets/event-loop.png)
 
 ### 이벤트 루프의 기본 개념
 1. 싱글 스레드:  
